@@ -14,10 +14,8 @@ export default tseslint.config(
   {
     ignores: [
       '**/node_modules/**',
-      '**/.output/**',
-      '**/.vinxi/**',
-      '**/storybook-static/**',
-      '**/*.gen.ts',
+      '**/.wrangler/**',
+      '**/worker-configuration.d.ts',
     ],
   },
   {
