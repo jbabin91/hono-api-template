@@ -6,4 +6,4 @@ runs:
   steps:
     - name: Tests
       shell: bash
-      run: bun test
+      run: bun run test
