@@ -4,6 +4,10 @@
   "main": "src/index.ts",
   "compatibility_date": "2025-04-29",
   "compatibility_flags": ["nodejs_compat"],
+  "keep_vars": true,
+  "dev": {
+    "port": 3000,
+  },
   // "vars": {
   //   "MY_VAR": "my-variable"
   // },
