@@ -6,4 +6,4 @@ runs:
   steps:
     - name: Tests
       shell: bash
-      run: pnpm test
+      run: bun test

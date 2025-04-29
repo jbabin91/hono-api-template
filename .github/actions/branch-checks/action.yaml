@@ -6,15 +6,15 @@ runs:
   steps:
     - name: Check Formatting
       shell: bash
-      run: pnpm format:check
+      run: bun run format:check
 
     - name: Lint Code
       shell: bash
-      run: pnpm lint
+      run: bun run lint
 
     - name: Type Check
       shell: bash
-      run: pnpm typecheck
+      run: bun run typecheck
 
     # Add additional branch checks here.
     # i.e. Translations, security, and any other additional check
