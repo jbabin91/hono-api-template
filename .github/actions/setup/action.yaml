@@ -1,0 +1,20 @@
+name: Setup
+description: Action to setup Bun, Node, and install dependencies
+
+runs:
+  using: composite
+  steps:
+    - name: Install Bun
+      uses: oven-sh/setup-bun@v1
+      with:
+        bun-version: latest
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version-file: .nvmrc
+        cache: bun
+
+    - name: Install dependencies
+      shell: bash
+      run: bun install
