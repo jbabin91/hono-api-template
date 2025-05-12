@@ -42,7 +42,7 @@
   },
   "devDependencies": {
     "@types/bun": "^1.2.13",
-    "@types/node": "^22.15.3",
+    "@types/node": "^22.15.17",
     "drizzle-kit": "^0.31.1",
     "eslint": "^9.25.1",
     "eslint-config-prettier": "^10.1.2",
