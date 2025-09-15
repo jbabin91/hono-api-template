@@ -41,7 +41,7 @@
     "zod": "^3.24.3"
   },
   "devDependencies": {
-    "@types/bun": "^1.2.21",
+    "@types/bun": "^1.2.22",
     "@types/node": "^22.15.17",
     "drizzle-kit": "^0.31.4",
     "eslint": "^9.34.0",
