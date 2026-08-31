@@ -37,7 +37,7 @@
   "dependencies": {
     "better-auth": "^1.6.29",
     "drizzle-orm": "^0.45.2",
-    "hono": "^4.13.3",
+    "hono": "^4.13.5",
     "zod": "^3.24.3"
   },
   "devDependencies": {
